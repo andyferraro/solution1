@@ -9,6 +9,7 @@ using namespace std;
 int _tmain(int argc, _TCHAR* argv[])
 {
 	cout << "app03";
+	cout << "works!";
 	return 0;
 }
 
