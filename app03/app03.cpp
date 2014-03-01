@@ -10,6 +10,7 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	cout << "app03";
 	cout << "works!";
+	cout << "works2!";
 	return 0;
 }
 
