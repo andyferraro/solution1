@@ -34,4 +34,3 @@ namespace MathFuncs
 		return a / b;
 	}
 }
-
