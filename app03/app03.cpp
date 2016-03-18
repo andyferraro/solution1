@@ -49,22 +49,22 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	vector<int> v{ 2, 3, 4, 5, 6, 7 };
 
-	complex<double> c1(1.0, 2.0);      // calls complex<double>::complex(double, double);
-	complex<double> c2{ 1.0, 2.0 };    // idem
-	complex<double> c3 = { 1.0, 2.0 }; // id
+	//complex<double> c1(1.0, 2.0);      // calls complex<double>::complex(double, double);
+	//complex<double> c2{ 1.0, 2.0 };    // idem
+	//complex<double> c3 = { 1.0, 2.0 }; // id
 
 	
-	vector<complex<int>> com_vec{ { 1, 2 }, { 3, 4 }, { 5, 6 } };
-	for (complex<int> v : com_vec)
-		cout << "Real: " << v.re << endl;
-	for each (complex<int> v in com_vec)
-	{
-		cout << "Real: " << v.re << endl;
-	}
-	mypair <int> myobject1(100, 75);
-	mynewpair  myobject2(100, 75);
-	cout << myobject1.getmax();
-	cout << myobject2.getmax();
+	//vector<complex<int>> com_vec{ { 1, 2 }, { 3, 4 }, { 5, 6 } };
+	//for (complex<int> v : com_vec)
+	//	cout << "Real: " << v.re << endl;
+	//for each (complex<int> v in com_vec)
+	//{
+	//	cout << "Real: " << v.re << endl;
+	//}
+	//mypair <int> myobject1(100, 75);
+	//mynewpair  myobject2(100, 75);
+	//cout << myobject1.getmax();
+	//cout << myobject2.getmax();
 
     //#pragma omp parallel 
 	//for (int i = 0; i<1000; i++)
